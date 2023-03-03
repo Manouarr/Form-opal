@@ -1,0 +1,92 @@
+
+
+
+/*********************************************************
+**************       ***   CSS BODY   ***
+**************************************************************************/
+
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+    background: #F1F2B5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+
+.formulaire {
+
+    background: white;
+    margin: auto auto;
+    margin-top: 50px;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    max-width: 800px;
+    border-radius: 3%;
+
+}
+
+h1 {
+
+    font-weight: bold;
+
+}
+
+
+/*********************************************************
+************** CSS bouton *******/
+
+
+
+.btnForm{
+    background: linear-gradient(to right,#578cc9 ,#6e56ae);
+    background-color: #578cc9;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-block;
+   }
+   .btnForm:hover{
+    background: linear-gradient(to right,#739bcf ,#8473b8);
+    background-color: #739bcf;
+   }
+   .btnForm:active{
+    transform: scale(0.95);
+   }
+
+
+/*********************************************************
+************** CSS img input radio / OPAL & DEMETZ *******/
+
+   input[type="checkbox"]:checked + img {
+    border: 2px solid rgb(31, 31, 64);
+
+    
+   }
+
+#opal {
+
+    width: 90px;
+    border-radius: 15%;
+}
+
+#demetz {
+    margin-left: 70px;
+    width: 200px; 
+    border-radius: 7%;
+
+}
+
+/*********************************************************
+************** CSS section input *******/
+
